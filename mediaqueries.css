@@ -1,0 +1,50 @@
+@media only screen and (max-width: 600px) {
+
+    .navbar {
+        position: relative;
+        background-color: #a460f9;
+    }
+    .navbar .menu-bar {
+        display: block;
+        font-size: 2em;
+        grid-column: 8/9;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    .navbar .menu {
+        position: absolute;
+        width: 100%;
+        height: 70vh;
+        display: grid;
+        align-items: center;
+        background-color: #a460f9;
+        margin-top: 560px;
+        transform: translateX(150%);
+        transition: all 1s;
+    }
+
+    .navbar .menu a {
+        color: #fff;
+    }
+
+    .navbar .menu a:hover {
+        color: #fff
+    }
+
+    .navbar .logo {
+        display: none;
+    }
+
+    .navbar .logomobile {
+        display: block;
+        width: 100px;
+        height: 100px;
+        grid-column: 2/3;
+    }
+
+    .navbar .menu-toggle {
+        transform: translateX(40%);
+
+    }
+}
