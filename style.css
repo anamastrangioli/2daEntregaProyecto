@@ -121,9 +121,9 @@ span {
 
 .caja {
     width: 100%;
-    height: 350px;
+    height: 400px;
     background: #242424;
-    margin-bottom: 20px;
+    
 }
 
 .contenedor {
@@ -133,7 +133,6 @@ span {
 }
 
 .caja h2 {
-    font-family: 'Krub';
     color: white;
     font-size: 3em;
     padding-top: 20px;
@@ -146,12 +145,168 @@ span {
     font-weight: 200;
     padding-left: 80px;
     padding-right: 80px;
-    display: flex;
     font-size: 1.1em;
     justify-content: space-around;
     margin-top: 10px;
+    
 }
 
+/* PROYECTOS */
+
+.titulo-proyectos {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+.caja-proyectos {
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.caja-proyectos h3 {
+    font-size: 48px;
+    padding-left: 200px;
+    padding-top: 100px;   
+}
+
+.caja-proyectos p {
+    padding-left: 200px;
+    font-size: 1.2em;
+}
+
+.caja-proyectos img {
+    height: 500px;
+    justify-content: right;
+    padding-bottom: 50px;
+}
+
+.contenedor-proyecto1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+}
+
+.contenedor-proyecto2 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-content: center;
+}
+
+.caja-proyectos2 h3 {
+    font-size: 48px;
+    padding-left: 200px;
+    padding-top: 100px; 
+}
+
+.caja-proyectos2 p {
+    padding-left: 200px;
+    font-size: 1.2em;
+    
+}
+
+.caja-proyectos2 img {
+    height: 500px;
+    justify-content: right;
+    padding-bottom: 50px;
+}
+
+.btn-proyectos {
+    font-size: 1em;
+    border: 2px solid #a460f9;
+    background-color:#fff; 
+    color:#181818;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+
+.btn-proyectos:hover {
+    background-color: #a460f9;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contenedor-contacto {
+    display: flex;
+}
+
+.caja-contacto {
+    display: inline-block;
+    
+}
+
+.caja-contacto h2 {
+    font-size: 48px;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+.caja-contacto p {
+    padding-left: 200px;
+    margin-top: 20px;
+}
+
+.caja-contacto img {
+    height: 500px;
+}
+
+.caja-contacto button {
+    margin-top: 20px;
+    margin-left: 200px;
+    font-size: 1em;
+    border: 2px solid #a460f9;
+    background-color:#fff; 
+    color:#181818;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+.caja-contacto button:hover {
+    background-color: #a460f9;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    background: #242424;
+    height: auto;
+    width: 100vw;
+    padding-top: 50px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.socials {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    height: auto;
+}
+
+.socials li {
+    display: flex;
+    list-style: none;
+    margin: 0 40px;    
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 15px;
+}
 
 /* MEDIAQUERIES */
 
