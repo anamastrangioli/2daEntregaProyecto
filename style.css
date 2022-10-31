@@ -160,6 +160,14 @@ span {
     margin-top: 50px;
 }
 
+.divider {
+    width: 50px;
+    height: 5px;
+    background-color: #a460f9;
+    margin: 0 auto;
+    margin-bottom: 7em;
+}
+
 .caja-proyectos {
     width: 100%;
     height: 400px;
@@ -320,6 +328,138 @@ footer {
     text-align: center;
     font-weight: 300;
     padding-bottom: 15px;
+}
+
+.cabecera-portafolio {
+    width: 800px;
+    margin-left: 80px;
+}
+
+.hero-portafolio {
+    display: grid;
+    grid-template-columns: 500px 800px;
+    margin: 0 100px;
+    width: 75vw;
+    min-height: 30vh;
+    align-items: center;
+}
+
+.info-content-portafolio h1 {
+    margin-top: 120px;
+    font-size: 4em;
+}
+
+.cabecera-portafolio {
+    position: absolute;
+    margin-left: 570px;
+    margin-top: -100px;
+    width: 1000px;
+    z-index: 1;
+}
+
+.divider2 {
+    width: 1900px;
+    height: 180px;
+    background-color:#242424;
+    margin-top: 100px;
+}
+
+.proyectos-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-top: 80px;
+}
+
+.proyecto-info {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.proyecto-info h2 {
+    font-size: 2em;
+}
+
+.proyecto-info h3 {
+    font-size: 1em;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.proyecto-info p {
+    margin-right: 150px;
+    margin-top: 15px;
+}
+
+.p-hero-portafolio {
+    font-size: 1.1em;
+}
+
+.proyecto-imagen {
+    height: 600px;
+    background-image: url(./Img/proyecto-ux.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-portafolio {
+    margin-top: 20px;
+    margin-right: 50px;
+    font-size: 1em;
+    border: 2px solid #a460f9;
+    background-color:#fff; 
+    color:#181818;
+    padding: 10px;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.btn-portafolio:hover {
+    background-color: #a460f9;
+    color: #fff;
+    cursor: pointer;
+}
+
+.proyecto-imagen2 {
+    height: 600px;
+    background-image: url(./Img/proyecto-afip.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.proyectos-content2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.proyectos-content3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.proyecto-imagen3 {
+    height: 600px;
+    background-image: url(./Img/anitadice-mockup.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.proyectos-content4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.proyecto-imagen4 {
+    height: 600px;
+    background-image: url(./Img/JABIMCO-MOCKUP.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 /* MEDIAQUERIES */
